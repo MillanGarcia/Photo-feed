@@ -1,0 +1,97 @@
+*{
+	border-style: solid;
+	border-color: red;
+	border-width: 0px;
+	border-radius: 2px;
+}
+body {
+	background: #dfdfdf;
+	color: #fff;
+	font-family: Helvetica;
+	text-align: center;
+	margin: 0;
+}
+#firstpart{
+	text-align: center;
+	background-color: white;
+	color:black;
+	font-weight:bolder;
+	font-size: small;
+	height:60px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	padding-right: 235px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+
+	
+}
+.post{
+	display: inline-block;
+	font-size: small;
+	background-color: white;
+	color:black;
+
+}
+.photoheader{
+	display: flex;
+	margin-top: 5px;
+	height: 30px;
+	font-size: medium;
+}
+.paragraph1{
+	
+	margin: auto;
+	font: weight bold;
+	margin-bottom: 8px;
+	
+	margin-left: 5px;
+	padding-top:0px;
+	
+}
+.paragraph2{
+	margin-top: 5px;
+	color:rgb(219, 219, 219);
+	margin-left: 150px;
+	margin-right: 10px;
+
+}
+.imagecontainer{
+	width: 550px;
+	height: 500px;
+	margin: 0px;
+	margin-right: -10px;
+	position: relative;
+}
+img{
+	object-fit: cover;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 570px;
+	height: 500px;
+	background-color: grey;
+	align-content: center;
+	border-width: 1px;
+	border-style: bold;
+	border-left:none;
+	border-right:none;
+	border-color: #dfdfdf;
+}
+.comment{
+	display: flex;
+	width:550px;
+	text-align: left;
+	margin: 0px 10px 0px 10px;
+}
+#food{
+	object-fit: contain;
+}
+/*
+Problemas:
+Con los margenes del comment, se desplazaba el de la foto
+Poner dos p a la misma altura
+separación entre posts, solo con </br>?
+Entender mejor las positions, y los display
+Siempre es necesario divs?
+No pude cambiar el estilo final de la etiqueta #food respecto a su "padre", clase
+*/
